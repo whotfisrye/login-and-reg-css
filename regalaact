@@ -1,0 +1,442 @@
+<html lang="en">
+<head>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+        <img src="logo.png" class="logo"><br>
+         <h1 style="font-family: Verdana; font-size: 40px;"><b>Welcome to Summoners Rift!</b></h1>
+         <pre><h1 style="font-size: 25px;">Please provide your information to Login</h1></pre>
+         <form action="">
+            <div class="login-box">
+                <label class="form-label"><b>Username:</b></label>
+                <input type="text" placeholder="username, or email">
+        
+                <label class="form-label"><b>Password:</b></label>
+                <input type="password" placeholder="Password">
+                
+                <input type="checkbox">Remember me
+        
+                <input type="submit" value="Log in">
+
+
+                <tr>
+                <b style="font-family:'Arial Narrow';">Don't have an account?</b>
+                    <th colspan="1"><a href="register.html">Register now!</a></th>
+            </tr>
+            </div>
+         </form>
+    </body>
+</html>
+////////
+CSS LOG IN
+
+body {
+    background-color: aliceblue;
+    background: url(redblack.jpg) no-repeat;
+    background-size:cover;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+img {
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
+}
+.logo {
+    position: fixed;
+    width: 250px;
+}
+.login-box {
+    width: 300px;
+    padding: 90px;
+    background-color: transparent;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black(0, 0, 0, 0.1);
+}
+.login-box :hover {
+    color: blue;
+}
+input[type="checkbox"] {
+    width: 15px;
+    height:15px;
+}
+h1 {
+    text-align:center;
+    color: rgb(249, 61, 61);
+    text-shadow: 3px 3px 5px black;
+}
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: darkred;
+}
+input[type="submit"] {
+    background-color: red;
+}
+.form.label {
+    margin-bottom: 10px;
+    display: black;
+}
+a{
+    color: lightblue;
+}
+////////
+REGISTER HTML!!!!
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="logo.png" class="logo"><br>
+    <h1 style="font-family: Verdana; font-size: 40px;"><b>Welcome to Summoners Rift!</b></h1>
+    <pre><h1 style="font-size: 25px;">Please provide your information to Register</h1></pre>
+    <form action="">
+        <div class="login-box">
+            <label for="form-label">Email Address:</label>
+            <input type="email" placeholder="You can use this email address to retrieve your password." style="font-size: -small;">
+    
+            <label for="form-label">Username:</label><br>
+            <input type="text" placeholder="username">
+    
+            <label for="form-label">Password:</label><br>
+            <input type="password" placeholder="password">
+    
+            <label for="form-label">Re-enter Password:</label> <br>
+            <input type="password" placeholder="Re-enter password">
+            
+            <label for="form-label">Country:</label>
+            <select name="" id="">
+                <option value="">Country</option>
+                <option value="">Australia</option>
+                <option value="">Braxil (Brasil)</option>
+                <option value="">China (中国)</option>
+                <option value="">Denmark</option>
+                <option value="">Egypt</option>
+                <option value="">France</option>
+                <option value="">Germany</option>
+                <option value="">Hungary</option>
+                <option value="">Iran (یرانا)</option>
+                <option value="">Japan</option>
+                <option value="">Korea, South</option>
+                <option value="">Lebanon</option>
+                <option value="">Malaysia</option>
+                <option value="">Nepal (नेपाल)</option>
+                <option value="">Oman</option>
+                <option value="">Philippines (Pilipinas)</option>
+                <option value="">Qatar</option>
+                <option value="">Russia</option>
+                <option value="">Singapore</option>
+                <option value="">Thailand (ราชอาณาจักรไทย)</option>
+                <option value="">United Kingdom</option>
+                <option value="">Vietnam</option>  
+                <option value="">Yemen</option> 
+                <option value="">Zimbabwe</option>  
+            </select>
+            <label for="form-label">Mobile Number:</label> 
+            <input type="tel" placeholder="xxx-xxx-xxxx">
+
+            <input type="submit" value="Register Now">
+            <tr>
+                <b style="font-family:'Arial Narrow';">Already have an account?</b>
+                    <th colspan="1"><a href="login.html">Log in</a></th>
+            </tr> <br> <br>
+
+            <tr>
+                <b style="font-family:'Arial Narrow';">By clicking Register Now, you agree to the <a href="terms.html">Terms of service</a> and <a href="privacy.html">Privacy policy</a></b>
+            </tr>
+        </div>
+    </form>
+</body>
+</html>
+//////
+REG CSS
+
+body {
+    background-color: aliceblue;
+    background: url(bgg.jpg) no-repeat;
+    background-size:cover;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+img {
+    filter: drop-shadow(10px 10px 10px rgba(0,0,0,1));
+}
+.login-box {
+    width: 350px;
+    padding: 70px;
+    background-color: transparent;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px black(0, 0, 0, 0.1);
+}
+.login-box :hover {
+    color: blue;
+}
+h1 {
+    text-align:center;
+    color: rgb(249, 61, 61);
+    text-shadow: 3px 3px 5px black;
+}
+.logo {
+    position: fixed;
+    width: 250px;
+}
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input[type="submit"] {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: darkred;
+}
+input[type="submit"] {
+    background-color: red;
+}
+a {
+    color: lightblue;
+}
+
+///////
+ToS
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <pre>
+            <b style="font-family: monospace; width: 1000%;">Terms of Service</b>
+            <b style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                Effective Date: March 15 2025
+                
+                Welcome to Rye Plays ("we," "our," "us"). These Terms of Service ("Terms") govern your access to and use of Rye PLays (the "Website"), 
+                including any services, features, or content provided by us through the Website. By accessing or using our Website, 
+                you agree to comply with and be bound by these Terms. If you do not agree with any part of these Terms, please do not use the Website.
+                
+                1. Acceptance of Terms
+                By accessing or using our Website, you agree to these Terms of Service and our Privacy Policy. We reserve the right to modify or update
+                these Terms at any time. Any changes will be posted on this page with an updated effective date. 
+                Your continued use of the Website after any changes constitutes acceptance of the new Terms.
+                
+                2. Use of the Website
+                You agree to use the Website in accordance with all applicable local, state, and international laws and regulations. 
+                You may not use the Website:
+                
+                For any unlawful or fraudulent purpose.
+                To transmit any viruses, malware, or other harmful computer code.
+                To interfere with the proper operation of the Website or attempt to gain unauthorized access to any systems or networks associated with the Website.
+                3. User Accounts
+                In order to access certain features of the Website, you may be required to create an account. You agree to:
+                
+                Provide accurate and complete information when creating your account.
+                Keep your account information secure and confidential.
+                Notify us immediately if you suspect any unauthorized use of your account.
+                We reserve the right to suspend or terminate your account if we believe that you have violated these Terms or any applicable laws.
+                
+                4. Content Ownership and Usage
+                Our Content: All content on the Website, including text, images, logos, graphics, videos, and software, is the 
+                property of Ryle Plays or its licensors and is protected by copyright laws.
+                
+                User-Generated Content: If you upload or submit any content to the Website (e.g., reviews, comments, forum posts), 
+                you grant Rye Plays a non-exclusive, royalty-free, worldwide license to use, display, and distribute the content for any purpose.
+                
+                You are solely responsible for the content you submit and agree that it will not violate any laws or the rights of others.
+                
+                5. Payment and Billing
+                If you make any purchases through the Website, you agree to provide accurate payment information and authorize us to process 
+                your payment. All transactions are subject to applicable fees, taxes, and charges. If you dispute any charges, please contact us at [Your Contact Email].
+                
+                6. Limitation of Liability
+                To the fullest extent permitted by law, [Your Website Name] and its affiliates, employees, or agents shall not be liable for 
+                any direct, indirect, incidental, special, or consequential damages arising out of or in connection with the use or inability to use 
+                the Website, including, but not limited to, errors, omissions, interruptions, or loss of data.
+                
+                7. Indemnification
+                You agree to indemnify, defend, and hold harmless Rye Plays from and against any claims, liabilities, damages, losses, and expenses 
+                (including legal fees) arising from your use of the Website, your violation of these Terms, or your infringement of any rights of others.
+                
+                8. Third-Party Links and Services
+                The Website may contain links to third-party websites or services that are not owned or controlled by Rye Plays. 
+                We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites or services.
+                You acknowledge and agree that we are not responsible or liable for any damage or loss caused by or in connection with the use of such third-party websites or services.
+                
+                9. Termination
+                We may suspend or terminate your access to the Website at any time, without notice, if we believe you have violated these Terms or engaged in
+                any fraudulent or unlawful activity. Upon termination, your right to use the Website will immediately cease.
+                
+                10. Governing Law
+                These Terms are governed by and construed in accordance with the laws of [Your Country/Region], without regard to its conflict of law principles. Any disputes arising out of or relating to these Terms or the Website shall be subject to the exclusive jurisdiction of the courts located in [Your Jurisdiction].
+                
+                11. Miscellaneous
+                Entire Agreement: These Terms constitute the entire agreement between you and [Your Website Name] regarding your use of the Website.
+                Severability: If any provision of these Terms is found to be invalid or unenforceable, the remaining provisions will remain in full force and effect.
+                Waiver: Failure to enforce any provision of these Terms will not be considered a waiver of that provision or of the right to enforce it later.
+                12. Contact Us
+                If you have any questions or concerns regarding these Terms of Service, please contact us at:
+
+                Contact Number: xxx-xxx-xxxx
+                Contact Emai: example@gmail.com 
+
+                <p style="text-align: center;">
+                    Back to the <a href="register.html">registration form</a>
+                </p>
+        </pre>
+    </form>
+</body>
+</html>
+
+////////
+Privacy
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <pre>
+            <b style="font-family: monospace; width: 1000%;">PRIVACY POLICY</b>
+            <b style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+                Effective Date: March 15 2025
+    
+                At Rye Play ("we," "our," or "us"), we are committed to protecting your privacy. This Privacy Policy explains how we collect, use, and protect 
+                your personal information when you visit and interact with our website.
+                
+                By using our website, you agree to the terms of this Privacy Policy. Please read it carefully.
+                
+                1. Information We Collect
+                We may collect the following types of information:
+                
+                Personal Information: When you contact us, sign up for newsletters, or make a purchase, we may collect personal information such as your name, 
+                email address, phone number, billing address, and payment information.
+                
+                Usage Data: We automatically collect information about your visit to our website, including IP addresses, browser type, 
+                referring/exit pages, and the dates/times of your visits.
+                
+                Cookies and Tracking Technologies: Our website uses cookies to enhance user experience, track user activity, and improve site functionality.
+                You can disable cookies in your browser settings, but some website features may not work properly.
+                
+                2. How We Use Your Information
+                We use your information for the following purposes:
+                
+                To provide and improve our services.
+                To personalize your experience on the website.
+                To communicate with you about updates, promotions, and news.
+                To process payments and fulfill orders.
+                To comply with legal obligations.
+                3. Data Sharing and Disclosure
+                We do not sell, trade, or rent your personal information to third parties. However, we may share your information in the following cases:
+                
+                Service Providers: We may share your information with trusted third-party vendors who help us operate our website or conduct business,
+                such as payment processors and email marketing services. These service providers are obligated to keep your information confidential.
+                
+                Legal Compliance: We may disclose your information if required to do so by law or in response to a legal request, such as a subpoena.
+                
+                4. Data Security
+                We take reasonable precautions to protect your personal information from unauthorized access, alteration, or destruction. However, 
+                please note that no method of transmission over the internet is completely secure, and we cannot guarantee the absolute security of your information.
+                
+                5. Your Rights
+                Depending on your location, you may have the following rights regarding your personal information:
+                
+                The right to access or update your personal information.
+                The right to request the deletion of your personal information.
+                The right to withdraw consent for processing your information at any time.
+                If you wish to exercise any of these rights, please contact us at example@gmail.com
+                
+                6. Third-Party Links
+                Our website may contain links to third-party websites. We are not responsible for the privacy practices or content of these 
+                external sites. We encourage you to read their privacy policies before providing any personal information.
+                
+                7. Children’s Privacy
+                Our website is not intended for individuals under the age of 13. We do not knowingly collect or solicit personal information 
+                from children under 13. If we become aware that we have collected personal information from a child under 13, we will take steps to delete it immediately.
+                
+                8. Changes to This Privacy Policy
+                We reserve the right to update or modify this Privacy Policy at any time. When we make changes, 
+                we will update the "Effective Date" at the top of the policy. We encourage you to review this policy periodically to stay informed about 
+                how we are protecting your information.
+                
+                9. Contact Us
+                If you have any questions or concerns about this Privacy Policy or how we handle your personal information, please contact us at:
+                
+                Contact Number: xxx-xxx-xxxx
+                Contact Emai: example@gmail.com 
+
+                <p style="text-align: center;">
+                    Back to the <a href="register.html">registration form</a>
+                </p>
+        </pre>
+    </form>
+</body>
+</html>
